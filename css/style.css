@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+/* Área cabeçalho */
+#area-menu {
+    height: 90px;
+}
+
+#logo img {
+    float: left;
+    width:150px;
+    margin-top: 20.5px;
+    margin-left: 100px;
+}
+
+#menu {
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+#menu li{
+    display: inline;
+    padding-right: 10px;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #7EB900;
+    padding: 20px;
+    font-family: fantasy;
+}
+
+#menu li a:hover {
+    color: black;
+    background: #7EB900;
+    border-radius: 20px;
+}
+
+#entrar {
+    border: 2px solid #7EB900;
+    border-radius: 20px;
+}
+
+#entrar:hover{
+    border: 2px solid #7EB900;
+    
+}
+
+/* Area principal */
+#container {
+    margin: 80px;
+}
+
+#area-formulario {
+    width: 30%;
+    float: left;  
+}
+
+#imagem-xbox {
+    float: right;
+    padding-right: 200px;
+}
+
+#imagem-xbox img {
+    width: 550px;
+}
+
+h1 {
+    color: #7EB900;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h4 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    color: white;
+}
+
+/* Formulário */
+
+input {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border:  0 none;
+    outline: none;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #7EB900;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: #7EB900;
+    cursor: pointer;
+}
